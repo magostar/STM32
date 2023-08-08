@@ -1,0 +1,16 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\Hardware\./SPI/spi.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\./NFR01/nf_01.h(67): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(14): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t temp =0x70;
+User\main.c(32): warning:  #1-D: last line of file ends without a newline
+   
+User\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=2400 RO-data=336 RW-data=8 ZI-data=1632  
+".\Objects\Project.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:01
